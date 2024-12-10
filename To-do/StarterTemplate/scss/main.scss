@@ -1,0 +1,73 @@
+/* *{
+    box-sizing: content-box;
+    background-color:grey;
+} */
+$color:#fff;
+$font-size:30px;
+$font-family:'Amatic SC', cursive;
+
+@mixin fontMixin($color,$font-size,$font-family){
+    color:$color;
+    font-size: $font-size;
+    font-family: $font-family;
+
+}
+
+body{
+    background-color: #424242 !important;
+    text-align: center;
+}
+
+h2{
+    //color:#fff;
+    //font-family: 'Amatic SC', cursive;
+    //font-size: 50px !important;
+    text-align: center;  
+    @include fontMixin($color,$font-family,50px);
+
+}
+h3{
+    //color:#fff;
+    //font-family:'Amatic SC', cursive;
+    //font-size:30px;
+    @include fontMixin($color,$font-family,$font-size);
+}
+p,textarea{
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+.content{
+    width:80%;
+    height: 80%;
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+
+.box{
+    font-size:25px !important;
+    background-color:#fff ;
+    color:#fff;
+    margin:10px;
+    border-radius: 10px;
+}
+.body{
+    padding:10px;
+}
+
+.head-to-do{
+    background-color: #f57cf5;
+    border-radius: 10px 10px 0 0;
+    padding:5px;
+    text-align: center;
+}
+.head-completed{
+    background-color:#43a047;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+    text-align: center;
+}
+.btn-add{
+    padding: 10px 30px !important;
+    font-size: 30px !important;
+}

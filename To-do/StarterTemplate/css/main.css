@@ -1,0 +1,66 @@
+/* *{
+    box-sizing: content-box;
+    background-color:grey;
+} */
+body {
+  background-color: #424242 !important;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  font-size: "Amatic SC", cursive;
+  font-family: 50px;
+}
+
+h3 {
+  color: #fff;
+  font-size: "Amatic SC", cursive;
+  font-family: 30px;
+}
+
+p, textarea {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.content {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.box {
+  font-size: 25px !important;
+  background-color: #fff;
+  color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.body {
+  padding: 10px;
+}
+
+.head-to-do {
+  background-color: #f57cf5;
+  border-radius: 10px 10px 0 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.head-completed {
+  background-color: #43a047;
+  border-radius: 10px 10px 0 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.btn-add {
+  padding: 10px 30px !important;
+  font-size: 30px !important;
+}
+
+/*# sourceMappingURL=main.css.map */
